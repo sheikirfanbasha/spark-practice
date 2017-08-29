@@ -1,0 +1,1 @@
+This paragraph is created to count the number of words using scala code which runs on spark. scala again for reference of the count check of words in the paragraph using scala code.
