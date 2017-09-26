@@ -38,7 +38,7 @@ object LinearRegressionTrain {
 	//val data = MLUtils.loadLibSVMFile(sc, "samp_am_libsvm.txt")
 
 	//Load csv and conver to LabeledPointData
-	val csv = sc.textFile("/Users/irfan/Personal/Project/spark-practice/sample_aml_data.csv");
+	val csv = sc.textFile("sample_aml_data.csv");
 
 	//To find the headers
 	val header = csv.first;
